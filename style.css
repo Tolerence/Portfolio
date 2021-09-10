@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../samie.jpg);
+    height:100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+
+ul{
+    background: rgba(0,0,0);
+    text-align: center;
+
+   
+   list-style-type: none;
+   margin-top: 30px;
+
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding:5px 20px;
+    margin: 15px;
+    width: 120px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+
+}
+ul li a:hover{
+background-color: white;
+color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black; 
+}
+.menu-bar.fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover.sub-main-1{
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover.sub-main-1 ul{
+    display: block;
+    margin: 10px;}
+  
+
+
+
+    .menu-bar ul li:hover.sub-main-1 ul{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title{
+    color: white;
+    font-size: 20px;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+.btn{
+   border: 1px solid wheat;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: black;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color:#000;
+}
